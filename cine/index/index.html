@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cine Mundo</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo"> Mi Cine Mundo</div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="logo.html">Inicio</a></li>
+                <li><a href="#peliculas">Películas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="ofertas.html">Ofertas Especiales</a></li>
+            </ul>
+        </nav>
+      
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar películas..." id="search">
+            <button type="submit"><i class="fa fa-search"></i> Buscar</button>
+        </div>
+    </header>
+
+    <div class="sidebar">
+        <ul>
+            <li><a href="accion.html">Acción</a></li>
+            <li><a href="comedia.html">Comedia</a></li>
+            <li><a href="drama.html">Drama</a></li>
+            <li><a href="terror.html">Terror</a></li>
+        </ul>
+    </div>
+
+   
+    <div class="content-wrapper">
+        <main>
+           
+            <section id="home">
+                <h1>Bienvenidos a Mi Cine Mundo</h1>
+                <p>Disfruta de las mejores películas de todos los géneros.</p>
+            </section>
+
+            
+            <section id="peliculas">
+                <h2>Películas en Cartelera</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../img/accion 2.jpeg" alt="Pelicula ">
+                        <h3> "JUNG_E" (2023), dirigida por Yeon Sang-ho.</h3>
+                        <p>En un futuro distópico, la humanidad ha sido casi aniquilada debido a una guerra civil que ha devastado la Tierra. </p>
+                    </div>
+                    <div class="card">
+                        <img src="../img/comedia 3.jpeg" alt="Pelicula ">
+                        <h3> ¡Vaya Vacaciones! (2023)</h3>
+                        <p>La película sigue a una familia que planea unas vacaciones perfectas para desconectar y disfrutar juntos. </p>
+                    </div>
+                    <div class="card">
+                        <img src="../img/drama 1.jpeg" alt="Pelicula ">
+                        <h3> Almas en pena de Inisherin (2022)</h3>
+                        <p>La película sigue la historia de dos amigos de toda la vida, Padraic (Colin Farrell) .</p>
+                    </div>
+                    <div class="card">
+                        <img src="../img/comedia 2.jpeg" alt="Pelicula ">
+                        <h3> La gente como vosotros (2023)</h3>
+                        <p>Esta comedia se centra en una familia disfuncional que se reúne para disfrutar de un fin de semana juntos. </p>
+                    </div>
+                </div>
+            </section>
+
+           
+            <section id="carousel">
+                <h2>Disfruta del mejor cine</h2>
+                <div class="carousel-container">
+                    <div class="carousel-slide">
+                        <img src="../img/cine 1.jpeg" alt="Imagen ">
+                        <img src="../img/cine 2.jpeg" alt="Imagen ">
+                        <img src="../img/cine 4.jpeg" alt="Imagen ">
+                        <img src="../img/cine 3.jpeg" alt="Imagen ">
+                    </div>
+                    <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                    <button class="next" onclick="moveSlide(1)">&#10095;</button>
+                </div>
+            </section>
+
+           
+            <section id="accion">
+                <h2>Películas de Acción</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../img/accion.jpeg" alt="Acción 1">
+                        <h3>65</h3>
+                        <p>Un piloto espacial, tras un accidente en un planeta desconocido, se encuentra atrapado en la Tierra hace 65 millones de años...</p>
+                    </div>
+                    <div class="card">
+                        <img src="../img/accion 2.jpeg" alt="Acción 2">
+                        <h3>JUNG_E</h3>
+                        <p>En un futuro distópico, la Tierra está en ruinas debido a una guerra civil...</p>
+                    </div>
+                    <div class="card">
+                        <img src="../img/accion 3.jpeg" alt="Acción 2">
+                        <h3>The Equalizer III</h3>
+                        <p>Robert McCall, exagente encubierto con un pasado oscuro, encuentra paz en un pintoresco pueblo italiano..</p>
+                    </div>
+                </div>
+            </section>
+            <section id="comedia">
+                <h2>Películas de comedia</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../img/comedia 1.jpeg" alt="comedia 1">
+                        <h3>De Caperucita a Loba</h3>
+                        <p>En esta comedia divertida y atrevida, una joven cansada de ser vista como la "Caperucita" ...</p>
+                    </div>
+                    <div class="card">
+                        <img src="../img/comedia 2.jpeg" alt="comedia 2">
+                        <h3>La gente como vosotros</h3>
+                        <p>En esta comedia, una pareja interracial enfrenta los desafíos de la vida y sus relaciones familiares en un mundo moderno...</p>
+                    </div>
+                    <div class="card">
+                        <img src="../img/comedia 3.jpeg" alt="comedia 2">
+                        <h3>¡Vaya Vacaciones!</h3>
+                        <p>En esta divertida comedia familiar, un grupo de parientes se reúne para unas vacaciones en la playa...</p>
+                    </div>
+                </div>
+            </section>
+            <section id="drama">
+                <h2>Películas de drama</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../img/drama 1.jpeg" alt="drama 1">
+                        <h3> Ant-Man and the Wasp: Quantumania </h3>
+                        <p>Scott Lang y Hope van Dyne, junto a sus familias, se aventuran en el Reino Cuántico, donde se encuentran con nuevas y extrañas criaturas. </p>
+                    </div>
+                    <div class="card">
+                        <img src="../img/drama 2.jpeg" alt="drama 2">
+                        <h3> Monster </h3>
+                        <p>En esta conmovedora película dirigida por Hirozaku Kore-eda, dos niños se ven envueltos en un misterio que sacude sus vidas.</p>
+                    </div>
+                    <div class="card">
+                        <img src="../img/drama 3.jpeg" alt="drama 2">
+                        <h3> Almas en pena de Inisherin </h3>
+                        <p>En una remota isla irlandesa, dos amigos de toda la vida, Pádraic y Colm, ven su amistad desgastada</p>
+                    </div>
+                </div>
+            </section>
+            <section id="terror">
+                <h2>Películas de terror</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../img/terror 1.jpeg" alt="terror 1">
+                        <h3> Posesión Infernal: El Despertar </h3>
+                        <p>En esta intensa entrega de terror, dos hermanas se reencuentran en Los Ángeles...</p>
+                    </div>
+                    <div class="card">
+                        <img src="../img/terror 2.jpeg" alt="terror">
+                        <h3> Insidious: The Red Door </h3>
+                        <p>Años después de los aterradores eventos anteriores, Dalton Lambert intenta dejar atrás su oscuro pasado mientras comienza la universidad....</p>
+                    </div>
+                    <div class="card">
+                        <img src="../img/terror 3.jpeg" alt="terror 2">
+                        <h3>Quiet</h3>
+                        <p>En un mundo donde el silencio es esencial para sobrevivir....</p>
+                    </div>
+                </div>
+            </section>
+
+
+        </main>
+
+      
+        <footer>
+            <p>&copy; 2024 Mi Cine Mundo. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+
+    <script src="../java/script.js"></script>
+</body>
+</html>

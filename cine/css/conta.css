@@ -1,0 +1,154 @@
+
+* {  
+    box-sizing: border-box;  
+    margin: 0;  
+    padding: 0;  
+}  
+
+body {  
+    font-family: Arial, sans-serif;  
+    background-color: #f2f2f2;  
+}  
+
+a {  
+    text-decoration: none;  
+    color: #337ab7;  
+}  
+
+a:hover {  
+    color: #23527c;  
+}  
+
+header {  
+    background-color: #000000;  
+    color: #fff;  
+    padding: 20px;  
+    text-align: center;  
+    border-radius: 20px;
+}  
+
+header nav ul {  
+    list-style: none;  
+    padding: 0;  
+}  
+
+header nav ul li {  
+    display: inline;  
+    margin-right: 20px;  
+}  
+
+header nav a {  
+    color: #fff;  
+    transition: color 0.2s ease;  
+}  
+
+header nav a:hover {  
+    color: #ccc;  
+}  
+
+ 
+.contacto {  
+    background-color: #fff;  
+    padding: 20px;  
+    margin: 20px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+}  
+
+.contacto h1 {  
+    margin-bottom: 10px;  
+}  
+
+.contacto form {  
+    margin-top: 20px;  
+}  
+
+.contacto input, .contacto textarea {  
+    width: 100%;  
+    padding: 10px;  
+    margin-bottom: 10px;  
+    border: 1px solid #ccc;  
+    border-radius: 5px;  
+}  
+
+.contacto input[type="submit"] {  
+    background-color: #4CAF50;  
+    color: #fff;  
+    padding: 10px;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+}  
+
+.contacto input[type="submit"]:hover {  
+    background-color: #3e8e41;  
+}  
+
+  
+.redes-sociales {  
+    background-color: #fff;  
+    padding: 20px;  
+    margin: 20px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+}  
+
+.redes-sociales h1 {  
+    margin-bottom: 10px;  
+}  
+
+.redes-sociales ul {  
+    list-style: none;  
+    padding: 0;  
+}  
+
+.redes-sociales li {  
+    display: inline;  
+    margin-right: 20px;  
+}  
+
+.redes-sociales a {  
+    font-size: 24px;  
+    margin-right: 10px;  
+}  
+
+.redes-sociales .facebook {  
+    color: #3b5998;  
+}  
+
+.redes-sociales .twitter {  
+    color: #1da1f2;  
+}  
+
+.redes-sociales .instagram {  
+    color: #e1306c;  
+}  
+
+.redes-sociales .linkedin {  
+    color: #0077b5;  
+}  
+
+
+.footer {  
+    background-color: #000000;  
+    color: #fff;  
+    padding: 10px;  
+    text-align: center;  
+    clear: both;  
+    border-radius: 20px;
+}  
+
+
+@media only screen and (max-width: 768px) {  
+    header nav ul {  
+        padding: 0;  
+        margin: 0;  
+    }  
+
+    header nav ul li {  
+        display: block;  
+        margin-right: 0;  
+    }  
+
+    .contacto, .redes-sociales {  
+        margin: 10px;  
+    }  
+}
